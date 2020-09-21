@@ -1,0 +1,5 @@
+vendor
+reports/coverage/.css
+reports/coverage/.fonts
+reports/coverage/.js
+reports/coverage/*.html

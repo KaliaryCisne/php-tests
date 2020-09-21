@@ -1,0 +1,25 @@
+{
+    "name": "kaliary/php-testes",
+    "authors": [
+        {
+            "name": "Kaliary Cisne de Sousa da Silva",
+            "email": "kaliarycisne@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "classes/",
+            "Testes\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always --whitelist /classes --coverage-html ./reports/coverage --coverage-text"
+    },
+    "scripts-descriptions": {
+        "test": "Run all tests!"
+    }
+}
